@@ -1,25 +1,18 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* common */
 
 .container {
-  max-width: 1320px;
+  max-width: 1200px;
   margin: auto;
-  background-color: aqua;
 }
-cmn-btn {
-  width: 188px;
-  height: 48px;
-  color: rgb(244, 247, 247);
-  background-color: rgb(27, 8, 196);
-  border: none;
-  border-radius: 10px 10px 10px 10px;
-  font-size: 0.8rem;
-  text-align: center;
-  justify-content: center;
-}
+
 /* nav bar */
 
 .nav-main {
@@ -32,7 +25,7 @@ cmn-btn {
   margin-top: 24px;
 }
 .nav-menu {
-  margin-top: 24px;
+  margin-top: 20px;
 }
 .nav-menu ul {
   display: flex;
@@ -47,6 +40,7 @@ cmn-btn {
 }
 .nav-menu ul li a {
   color: rgb(54, 50, 50);
+  text-decoration: none;
 }
 
 .nav-btn button {
@@ -58,4 +52,48 @@ cmn-btn {
   border-radius: 10px 10px 10px 10px;
   font-size: 0.8rem;
   cursor: pointer;
+}
+/* hero */
+.hero {
+  margin-top: 25px;
+  background-image: url("./images/banner.jpg");
+  position: relative;
+  min-height: 600px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 750px;
+  padding: 0 20px;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.hero-content p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.hero-btn button {
+  display: inline-block;
+  width: 188px;
+  height: 48px;
+  color: rgb(244, 247, 247);
+  background-color: rgb(27, 8, 196);
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-top: 300px;
 }
