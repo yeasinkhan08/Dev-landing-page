@@ -1,0 +1,61 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+/* common */
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+  background-color: aqua;
+}
+cmn-btn {
+  width: 188px;
+  height: 48px;
+  color: rgb(244, 247, 247);
+  background-color: rgb(27, 8, 196);
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 0.8rem;
+  text-align: center;
+  justify-content: center;
+}
+/* nav bar */
+
+.nav-main {
+  background: #ffffff;
+}
+.nav-body {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 24px;
+}
+.nav-menu {
+  margin-top: 24px;
+}
+.nav-menu ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.nav-menu ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.nav-menu ul li a {
+  color: rgb(54, 50, 50);
+}
+
+.nav-btn button {
+  width: 188px;
+  height: 48px;
+  color: rgb(244, 247, 247);
+  background-color: rgb(27, 8, 196);
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
