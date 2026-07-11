@@ -168,7 +168,7 @@ body {
   margin-bottom: 45px;
 }
 
-.price-container {
+.pricing-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 26px;
@@ -177,21 +177,21 @@ body {
   text-align: left;
 }
 
-.price-card {
+.pricing-card {
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
   border-radius: 12px;
   padding: 32px 28px;
   display: flex;
   flex-direction: column;
-  transition: transform 0.25s ease;
+  transition: transform 0.5s ease;
 }
 
-.price-card:hover {
-  transform: translateY(-6px);
+.pricing-card:hover {
+  transform: translateY(-10px);
 }
 
-.price-card h4 {
+.pricing-card h4 {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -199,29 +199,29 @@ body {
   margin-bottom: 10px;
 }
 
-.price-card h3 {
+.pricing-card h3 {
   font-size: 2.2rem;
   margin-bottom: 20px;
 }
 
-.price-card ul {
+.pricing-card ul {
   margin-bottom: 24px;
   flex-grow: 1;
 }
 
-.price-card ul li {
+.pricing-card ul li {
   position: relative;
   padding-left: 20px;
   margin-bottom: 12px;
   font-size: 0.92rem;
 }
 
-.price-card ul li::before {
+.pricing-card ul li::before {
   position: absolute;
   left: 0;
   color: #2f57ef;
 }
-.price-card button {
+.pricing-card button {
   width: 100%;
   padding: 12px 0;
   border-radius: 6px;
@@ -235,32 +235,31 @@ body {
     color 0.2s ease;
 }
 
-.price-card button:hover {
+.pricing-card button:hover {
   border-color: #2f57ef;
   color: #2f57ef;
 }
 
-.price-card.featured {
+.pricing-card.featured {
   background-color: #0d1226;
   color: #ffffff;
   border: none;
 }
 
-.price-card.featured h4 {
+.pricing-card.featured h4 {
   color: #b7bfe6;
 }
 
-.price-card.featured ul li::before {
+.pricing-card.featured ul li::before {
   color: #7d96ff;
 }
-
-.price-card.featured button {
+.pricing-card.featured button {
   background-color: #2f57ef;
   border-color: #2f57ef;
   color: #ffffff;
 }
 
-.price-card.featured button:hover {
+.pricing-card.featured button:hover {
   background-color: #1f3fc9;
   border-color: #1f3fc9;
 }
@@ -287,7 +286,7 @@ body {
 
 .social-links {
   display: flex;
-  gap: 22px;
+  gap: 20px;
 }
 
 .social-links a {
@@ -310,9 +309,4 @@ body {
   text-align: center;
   color: #9aa0c0;
   font-size: 0.85rem;
-}
-.navbar {
-  flex-direction: column;
-  gap: 14px;
-  padding: 16px 20px;
 }
