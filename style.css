@@ -15,52 +15,51 @@ body {
 
 /* nav bar */
 
-.nav-main {
-  background: #ffffff;
+.container {
+  width: 1200px;
+  margin: auto;
 }
-.nav-body {
+.btn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 7px;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+  box-shadow: 0px 5px 5px rgb(121, 112, 243);
+}
+
+/* navber */
+.nav-main {
   display: flex;
   justify-content: space-between;
-  text-align: center;
-  margin-top: 24px;
+  align-items: center;
+  margin-top: 10px;
 }
-.nav-menu {
-  margin-top: 20px;
-}
+
 .nav-menu ul {
   display: flex;
   justify-content: center;
-  text-align: center;
-  gap: 10px;
-}
-
-.nav-menu ul li {
+  gap: 20px;
   list-style: none;
-  cursor: pointer;
-}
-.nav-menu ul li a {
-  color: rgb(54, 50, 50);
-  text-decoration: none;
-  font-size: 1rem;
-}
-.nav-menu ul li a:hover {
-  color: #172149;
 }
 
-.nav-btn button {
-  width: 188px;
-  height: 48px;
-  color: rgb(244, 247, 247);
-  background: #1d44d6;
-  border: none;
-  border-radius: 10px 10px 10px 10px;
-  font-size: 0.8rem;
-  cursor: pointer;
+.nav-menu a {
+  text-decoration: none;
+  color: black;
 }
-.nav-btn:hover {
-  transform: translateY(-5px);
-  box-shadow: rgb(82, 81, 81);
-  background: #1d44d6;
+
+.nav-menu a:hover {
+  color: #2563eb;
 }
 /* hero */
 .hero {
