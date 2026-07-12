@@ -65,15 +65,15 @@ body {
 /* hero */
 .hero {
   margin-top: 25px;
-  background-image: url("./images/banner.jpg");
+  background: rgba(0, 0, 0, 0.7) url("./images/banner.jpg");
+
   position: relative;
   min-height: 600px;
-  position: relative;
   background-size: cover;
+  background-blend-mode: darken;
   background-position: center;
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
 }
