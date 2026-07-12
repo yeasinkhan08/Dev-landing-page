@@ -41,6 +41,10 @@ body {
 .nav-menu ul li a {
   color: rgb(54, 50, 50);
   text-decoration: none;
+  font-size: 1rem;
+}
+.nav-menu ul li a:hover {
+  color: #172149;
 }
 
 .nav-btn button {
@@ -291,12 +295,12 @@ body {
 
 .social-links {
   display: flex;
-  gap: 20px;
+  gap: 18px;
 }
 
 .social-links a {
   color: #b7bfe6;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   transition: color 0.2s ease;
 }
 
@@ -323,6 +327,7 @@ body {
   background: #0d1226;
   color: white;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .hackathon h2 {
